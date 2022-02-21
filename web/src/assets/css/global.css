@@ -1,0 +1,45 @@
+.g-avatar {
+	content:url('../../../resources/img/faces/avatar.png');
+}
+
+.g-card-1 {
+	content:url('../../../resources/img/card-1.jpg');
+}
+
+.g-card-2 {
+	content:url('../../../resources/img/card-2.jpg');
+}
+
+.g-card-3 {
+	content:url('../../../resources/img/card-3.jpg');
+}
+
+.flag-US {
+	content:url('../../../resources/img/flags/US.png');
+}
+.flag-DE {
+	content:url('../../../resources/img/flags/DE.png');
+}
+.flag-AU {
+	content:url('../../../resources/img/flags/AU.png');
+}
+.flag-GB {
+	content:url('../../../resources/img/flags/GB.png');
+}
+.flag-RO {
+	content:url('../../../resources/img/flags//RO.png');
+}
+.flag-BR {
+	content:url('../../../resources/img/flags/BR.png');
+}
+
+/* table */
+.table thead tr th {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* fixed-plugin gear */
+.fixed-plugin {
+	margin-top: -50px;
+}

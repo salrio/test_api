@@ -1,0 +1,90 @@
+/*!
+
+ =========================================================
+ * Material Bootstrap Wizard - v1.0.2
+ =========================================================
+ 
+ * Product Page: https://www.creative-tim.com/product/material-bootstrap-wizard
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/material-bootstrap-wizard/blob/master/LICENSE.md)
+ 
+ =========================================================
+ 
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+
+
+
+.wizard-container {
+  padding-top: 100px;
+  z-index: 3; }
+  .wizard-container .wizard-navigation {
+    position: relative; }
+
+
+
+.card {
+  background-color: #FFFFFF;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 6px;
+  color: rgba(0,0,0, 0.87);
+  background: #fff; }
+
+.wizard-card {
+  min-height: 410px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
+  
+  .wizard-card .moving-tab {
+    position: absolute;
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: subpixel-antialiased;
+    top: -4px;
+    left: 0px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500; }
+  
+  .wizard-card[data-color="red"] .moving-tab {
+    background-color: #ea2c6d;
+    box-shadow: 0 16px 26px -10px #f443368f, 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2); }
+
+  
+  .wizard-card .nav-pills > li {
+    text-align: center; }
+  
+
+
+
+/*            Navigation menu                */
+.nav-pills {
+  background-color: rgba(200, 200, 200, 0.2); }
+  .nav-pills > li + li {
+    margin-left: 0; }
+  .nav-pills > li > a {
+    outline: none;
+    border: 0 !important;
+    border-radius: 0;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    min-width: 100px;
+    text-align: center;
+    color: #555555 !important; }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus,
+  .nav-pills > li > a:hover,
+  .nav-pills > li > a:focus {
+    background-color: inherit; }
+  .nav-pills > li i {
+    display: block;
+    font-size: 30px;
+    padding: 15px 0; }
+
